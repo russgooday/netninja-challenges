@@ -10,7 +10,14 @@
 <body>
     <div class='emailBox'>
         <label for='email'>Email Address</label>
-        <input type='email' name='email' id='email' placeholder='joe@blogs.com' required>
+        <input
+            type='email'
+            name='email'
+            id='email'
+            placeholder='joe@blogs.com'
+            pattern="[a-zA-Z0-9.!#$%&'’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"
+            required
+        >
         <span class='tick'>✓</span>
     </div>
 </body>
