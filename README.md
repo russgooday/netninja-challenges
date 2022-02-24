@@ -1,4 +1,3 @@
-# NetNinja Challenges
-Shaun's NetNinja challenges from his Youtube channel
+# NetNinja Challenge 02
 
-See branches
+Email input box with animated tick and border colour validation.
