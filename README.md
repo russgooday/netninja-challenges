@@ -1,3 +1,3 @@
-# NetNinja Challenge 02
+# NetNinja Challenge 01
 
-Email input box with animated tick and border colour validation.
+Sliding menu and animated burger button.
