@@ -1,23 +1,46 @@
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css" rel="stylesheet">
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='index.css' rel='stylesheet'>
   <title>Slide in Menu</title>
 </head>
 <body>
-  
-  <div class="menu">
-    <!-- site title bar / header -->
-    <!-- slide out nav -->
-  </div>
-
+  <header>
+    <div class='logo'>
+      <h1>Site Title</h1>
+    </div>
+    <nav class='menu' role='navigation'>
+      <input type='checkbox' id='side-menu-burger'>
+      <label class='burger' for='side-menu-burger'>
+        <div class='line1'></div>
+        <div class='line2'></div>
+        <div class='line3'></div>
+      </label>
+      <div id='side-menu' class='side-menu'>
+        <ul>
+          <li class='nav-item'>
+            <a href='#' class='nav-link'>Home</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#' class='nav-link'>About</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#' class='nav-link'>Contact</a>
+          </li>
+          <li class='nav-item'>
+            <a href='#' class='nav-link'>Shop</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <main>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur cum corporis, voluptates quam exercitationem quo eaque mollitia dicta itaque vero consequatur esse. Ipsa blanditiis rem maiores non saepe quibusdam provident hic perferendis? Ipsum tempore corrupti vero amet ab ut temporibus minima dolor et dolorum deserunt quod, aspernatur cumque error accusantium quas dolores natus explicabo. Reiciendis sint fugit totam praesentium nobis?</p>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur cum corporis, voluptates quam exercitationem quo eaque mollitia dicta itaque vero consequatur esse. Ipsa blanditiis rem maiores non saepe quibusdam provident hic perferendis? Ipsum tempore corrupti vero amet ab ut temporibus minima dolor et dolorum deserunt quod, aspernatur cumque error accusantium quas dolores natus explicabo. Reiciendis sint fugit totam praesentium nobis?</p>
   </main>
 
-  <script src="index.js"></script>
+  <script src='index.js'></script>
 </body>
 </html>
