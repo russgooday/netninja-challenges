@@ -3,5 +3,5 @@ Shaun, aka 'The NetNinja', has a vast range of excellent tutorials on his [youtu
 
 These are my solutions:
 
-1. [Slide in menu and animated burger menu](https://github.com/russgooday/netninja-challenges/tree/challenge-01)
+1. [Slide in menu with animated burger menu](https://github.com/russgooday/netninja-challenges/tree/challenge-01)
 2. [Frontend email validation with animated feedback](https://github.com/russgooday/netninja-challenges/tree/challenge-02)
