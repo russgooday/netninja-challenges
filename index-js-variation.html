@@ -5,21 +5,21 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Verified Email</title>
-    <link rel='stylesheet' href='./index.css'>
+    <link rel='stylesheet' href='./index-js-variation.css'>
 </head>
 <body>
     <div class='emailBox'>
         <label for='email'>Email Address</label>
-        <!-- Email Pattern taken from W3C working draft -->
+        <!-- No pattern, using built in validation -->
         <input
             type='email'
             name='email'
             id='email'
             placeholder='joe@somewhere.com'
-            pattern="[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"
             required
         >
         <span class='tick'>✓</span>
     </div>
+    <script src='./index.js'></script>
 </body>
 </html>

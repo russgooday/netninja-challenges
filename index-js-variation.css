@@ -41,10 +41,10 @@ body {
     transition: transform .2s linear;
 }
 
-.emailBox input:valid + .tick {
-    transform: translateY(-50%);
+.emailBox input.valid {
+    border-color: green;
 }
 
-.emailBox input:valid {
-    border-color: green;
+.emailBox input.valid + .tick {
+    transform: translateY(-50%);
 }
