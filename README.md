@@ -4,6 +4,6 @@ The challenge was set out on the basis of working in HTML, CSS and JS. I have do
 
 The burger button consists of a hidden checkbox and a 'label' tag wrapped around the burger. I then make use of a combination of the :checked pseudo and sibling selectors to flip between open and closed states.
 
-In addition to clicking on the burger menu, I would expect the user to be able to close the menu by click any where outside of it. This is one drawback I see to a CSS only solution.
+In addition to clicking on the burger menu, I would expect the user to be able to close the menu by click any where outside of it. This is one drawback I see to my current CSS only solution.
 
 [Working Demo](https://russgooday.github.io/netninja-challenges/)
