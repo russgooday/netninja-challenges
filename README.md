@@ -6,4 +6,4 @@ The burger button consists of a hidden checkbox and a 'label' tag wrapped around
 
 In addition to clicking on the burger menu, I would expect the user to be able to close the menu by click any where outside of it. This is one drawback I see to my current CSS only solution.
 
-[Working Demo](https://russgooday.github.io/netninja-challenges/)
+[Working Demo](https://rpgdigital.co.uk/net-ninja/challenges/01-sliding-menu/)
